@@ -1,0 +1,12 @@
+{
+  "fetched_utc": "2026-09-29T19:12:23Z",
+  "market_file": "live_market.csv",
+  "market_live": true,
+  "market_rows": 260,
+  "market_sha256": "6f12f46ed659d62275b580b25c3cca1f259b0a686e221e8e4ecf8465ed2fbd66",
+  "text_file": "live_text.txt",
+  "text_live": true,
+  "text_chars": 28622,
+  "text_sha256": "8e62fc627a466fa433d49d5ebf9fc5cdd350ee56570314ae56734a2e4d7fc04c",
+  "elapsed_s": 10.76
+}

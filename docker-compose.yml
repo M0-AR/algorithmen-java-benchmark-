@@ -1,0 +1,20 @@
+services:
+  bench-py:
+    build: .
+    container_name: algo-bench-py
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    command: ["python3", "scripts/run_benchmarks.py"]
+    environment:
+      - PYTHONHASHSEED=42
+      - TZ=UTC
+  bench-java:
+    image: openjdk:17-slim
+    container_name: algo-bench-java
+    working_dir: /app
+    volumes:
+      - ./java:/app/java
+      - ./data:/app/data
+      - ./results:/app/results
+    command: ["bash", "-c", "javac java/*.java && java -cp java BenchAll"]

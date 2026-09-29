@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<title>Algorithmen-in-Java Benchmark — Live Report</title>
+<style>body{font-family:system-ui,Arial,sans-serif;max-width:960px;margin:32px auto;padding:0 16px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:6px 8px;font-size:14px}th{background:#f5f5f5}.hero{background:#0b1020;color:#fff;padding:28px;border-radius:12px}</style>
+</head><body>
+<div class='hero'><h1>Algorithmen in Java — Verified Live Benchmark</h1>
+<p>Lang (2006) Ch.2/3/5 reproduced end-to-end on live Yahoo Finance + Wikipedia. All numbers generated, never hand-written.</p>
+<p>Text: 20000 chars live &nbsp;|&nbsp; Graph Floyd==Dijkstra: True &nbsp;|&nbsp; MST: 13.0</p></div>
+<h2>Sorting on live windows — disorder predicts cost (H1–H3)</h2>
+<table><tr><th>window</th><th>n</th><th>inversions</th><th>runs</th><th>quick cmp</th><th>heap cmp</th><th>merge cmp</th></tr><tr><td>live_w0</td><td>64</td><td>642</td><td>17</td><td>522</td><td>561</td><td>262</td></tr><tr><td>live_w32</td><td>64</td><td>141</td><td>18</td><td>426</td><td>587</td><td>228</td></tr><tr><td>live_w64</td><td>64</td><td>368</td><td>17</td><td>481</td><td>565</td><td>278</td></tr><tr><td>live_w96</td><td>64</td><td>1329</td><td>18</td><td>527</td><td>572</td><td>293</td></tr><tr><td>live_w128</td><td>64</td><td>559</td><td>15</td><td>479</td><td>566</td><td>286</td></tr><tr><td>live_w160</td><td>64</td><td>414</td><td>15</td><td>476</td><td>580</td><td>252</td></tr><tr><td>sorted256</td><td>256</td><td>0</td><td>1</td><td>1817</td><td>3456</td><td>1024</td></tr><tr><td>reversed256</td><td>256</td><td>32636</td><td>5</td><td>1825</td><td>3108</td><td>1026</td></tr><tr><td>random256</td><td>256</td><td>15973</td><td>86</td><td>2678</td><td>3305</td><td>1743</td></tr></table>
+<h2>Text search on live prose — skip dividend (H4)</h2>
+<table><tr><th>pattern</th><th>hits</th><th>naive</th><th>KMP</th><th>Horspool</th><th>Sunday</th></tr><tr><td>algorithm</td><td>116</td><td>22417</td><td>21259</td><td>3789</td><td>3827</td></tr><tr><td>sort</td><td>2</td><td>21118</td><td>21058</td><td>5861</td><td>5013</td></tr><tr><td>the</td><td>209</td><td>21840</td><td>21223</td><td>7892</td><td>6816</td></tr><tr><td>aaaaab</td><td>0</td><td>21370</td><td>21375</td><td>3594</td><td>3272</td></tr><tr><td>in mathematics and c</td><td>1</td><td>21624</td><td>21290</td><td>2005</td><td>1777</td></tr></table>
+<h2>Figure</h2><img src='../results/figures/inversion_vs_quick.png' style='max-width:100%' alt='inversion vs quick'>
+<p><small>Generated from results/benchmark_results.json. Reproduce: python3 scripts/fetch_live_data.py && python3 scripts/run_benchmarks.py && python3 scripts/make_report.py</small></p>
+</body></html>

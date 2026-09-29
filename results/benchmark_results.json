@@ -1,0 +1,339 @@
+{
+  "sort": {
+    "live_w0": {
+      "n": 64,
+      "inversions": 642,
+      "runs": 17,
+      "algos": {
+        "insertion": {
+          "comparisons": 705,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 30685,
+          "comparisons": 522,
+          "moves": 100
+        },
+        "heap": {
+          "ns_median": 39409,
+          "comparisons": 561,
+          "moves": 321
+        },
+        "merge_b": {
+          "ns_median": 33200,
+          "comparisons": 262,
+          "moves": 289
+        },
+        "shell": {
+          "ns_median": 19862,
+          "comparisons": 351,
+          "moves": 177
+        }
+      }
+    },
+    "live_w32": {
+      "n": 64,
+      "inversions": 141,
+      "runs": 18,
+      "algos": {
+        "insertion": {
+          "comparisons": 204,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 19597,
+          "comparisons": 426,
+          "moves": 69
+        },
+        "heap": {
+          "ns_median": 41066,
+          "comparisons": 587,
+          "moves": 351
+        },
+        "merge_b": {
+          "ns_median": 29732,
+          "comparisons": 228,
+          "moves": 245
+        },
+        "shell": {
+          "ns_median": 13008,
+          "comparisons": 255,
+          "moves": 75
+        }
+      }
+    },
+    "live_w64": {
+      "n": 64,
+      "inversions": 368,
+      "runs": 17,
+      "algos": {
+        "insertion": {
+          "comparisons": 431,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 23175,
+          "comparisons": 481,
+          "moves": 93
+        },
+        "heap": {
+          "ns_median": 38081,
+          "comparisons": 565,
+          "moves": 332
+        },
+        "merge_b": {
+          "ns_median": 34111,
+          "comparisons": 278,
+          "moves": 303
+        },
+        "shell": {
+          "ns_median": 16019,
+          "comparisons": 294,
+          "moves": 116
+        }
+      }
+    },
+    "live_w96": {
+      "n": 64,
+      "inversions": 1329,
+      "runs": 18,
+      "algos": {
+        "insertion": {
+          "comparisons": 1388,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 26730,
+          "comparisons": 527,
+          "moves": 120
+        },
+        "heap": {
+          "ns_median": 38075,
+          "comparisons": 572,
+          "moves": 313
+        },
+        "merge_b": {
+          "ns_median": 34888,
+          "comparisons": 293,
+          "moves": 336
+        },
+        "shell": {
+          "ns_median": 25931,
+          "comparisons": 444,
+          "moves": 281
+        }
+      }
+    },
+    "live_w128": {
+      "n": 64,
+      "inversions": 559,
+      "runs": 15,
+      "algos": {
+        "insertion": {
+          "comparisons": 619,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 23668,
+          "comparisons": 479,
+          "moves": 100
+        },
+        "heap": {
+          "ns_median": 39232,
+          "comparisons": 566,
+          "moves": 340
+        },
+        "merge_b": {
+          "ns_median": 35866,
+          "comparisons": 286,
+          "moves": 339
+        },
+        "shell": {
+          "ns_median": 20261,
+          "comparisons": 349,
+          "moves": 179
+        }
+      }
+    },
+    "live_w160": {
+      "n": 64,
+      "inversions": 414,
+      "runs": 15,
+      "algos": {
+        "insertion": {
+          "comparisons": 474,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 23811,
+          "comparisons": 476,
+          "moves": 95
+        },
+        "heap": {
+          "ns_median": 39142,
+          "comparisons": 580,
+          "moves": 346
+        },
+        "merge_b": {
+          "ns_median": 32789,
+          "comparisons": 252,
+          "moves": 289
+        },
+        "shell": {
+          "ns_median": 16582,
+          "comparisons": 300,
+          "moves": 132
+        }
+      }
+    },
+    "sorted256": {
+      "n": 256,
+      "inversions": 0,
+      "runs": 1,
+      "algos": {
+        "insertion": {
+          "comparisons": 255,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 70577,
+          "comparisons": 1817,
+          "moves": 132
+        },
+        "heap": {
+          "ns_median": 242925,
+          "comparisons": 3456,
+          "moves": 1974
+        },
+        "merge_b": {
+          "ns_median": 134839,
+          "comparisons": 1024,
+          "moves": 1024
+        },
+        "shell": {
+          "ns_median": 33464,
+          "comparisons": 757,
+          "moves": 0
+        }
+      }
+    },
+    "reversed256": {
+      "n": 256,
+      "inversions": 32636,
+      "runs": 5,
+      "algos": {
+        "insertion": {
+          "comparisons": 32640,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 80503,
+          "comparisons": 1825,
+          "moves": 260
+        },
+        "heap": {
+          "ns_median": 211621,
+          "comparisons": 3108,
+          "moves": 1639
+        },
+        "merge_b": {
+          "ns_median": 176282,
+          "comparisons": 1026,
+          "moves": 2046
+        },
+        "shell": {
+          "ns_median": 329012,
+          "comparisons": 5242,
+          "moves": 4735
+        }
+      }
+    },
+    "random256": {
+      "n": 256,
+      "inversions": 15973,
+      "runs": 86,
+      "algos": {
+        "insertion": {
+          "comparisons": 16221,
+          "h1_exact": true
+        },
+        "quick": {
+          "ns_median": 142094,
+          "comparisons": 2678,
+          "moves": 543
+        },
+        "heap": {
+          "ns_median": 233477,
+          "comparisons": 3305,
+          "moves": 1823
+        },
+        "merge_b": {
+          "ns_median": 211904,
+          "comparisons": 1743,
+          "moves": 1891
+        },
+        "shell": {
+          "ns_median": 245739,
+          "comparisons": 3919,
+          "moves": 3191
+        }
+      }
+    }
+  },
+  "text": {
+    "text_len": 20000,
+    "cases": {
+      "algorithm": {
+        "hits": 116,
+        "naive_cmp": 22417,
+        "kmp_cmp": 21259,
+        "horspool_cmp": 3789,
+        "sunday_cmp": 3827,
+        "sublinear": true
+      },
+      "sort": {
+        "hits": 2,
+        "naive_cmp": 21118,
+        "kmp_cmp": 21058,
+        "horspool_cmp": 5861,
+        "sunday_cmp": 5013,
+        "sublinear": true
+      },
+      "the": {
+        "hits": 209,
+        "naive_cmp": 21840,
+        "kmp_cmp": 21223,
+        "horspool_cmp": 7892,
+        "sunday_cmp": 6816,
+        "sublinear": true
+      },
+      "aaaaab": {
+        "hits": 0,
+        "naive_cmp": 21370,
+        "kmp_cmp": 21375,
+        "horspool_cmp": 3594,
+        "sunday_cmp": 3272,
+        "sublinear": true
+      },
+      "in mathematics and c": {
+        "hits": 1,
+        "naive_cmp": 21624,
+        "kmp_cmp": 21290,
+        "horspool_cmp": 2005,
+        "sunday_cmp": 1777,
+        "sublinear": true
+      }
+    }
+  },
+  "graph": {
+    "n": 8,
+    "floyd_eq_dijkstra": true,
+    "mst_weight": 13.0,
+    "sample_d00": [
+      0,
+      4,
+      1,
+      5
+    ]
+  }
+}
